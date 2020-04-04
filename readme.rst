@@ -13,6 +13,7 @@ Anggota Kelompok
 - `Back End Dev    ` : `Andri Nur Hidayatuloh <https://github.com/andrinur13>`_.
 - `Front End Web   ` : `Alfriandi Saputra <https://github.com/AnfieldGank14>`_.
 - `Front End Mobile` : `Aldiansyah <https://github.com/aldinsh>`_.
+- `Front End Mobile` : `Aldiansyah <https://github.com/aldinsh>`_.
 
 This repo contains in-development code for future releases. To download the
 latest stable release please visit the `CodeIgniter Downloads

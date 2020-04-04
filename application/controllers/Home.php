@@ -26,6 +26,11 @@ class Home extends CI_Controller
     public function CekJadwal()
     {
         $data['date'] = $this->input->post('date');
+        // load model
+        $this->load->model('Pemesanan_Model');
+        $this->load->model('Jam_Main_Model');
+        $data['jadwal_pemesanan'] = $this->Pemesanan_Model->CekJadwalPemesanan($data['date']);
+        $data['jadwal'] = $this->Jam_Main_Model->getAllWaktuMain();
         $this->load->view('pemesanan/jadwal', $data);
     }
 

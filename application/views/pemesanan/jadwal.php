@@ -37,7 +37,7 @@
                                         $i++;  ?>
                                 </td>
                                 <td>
-                                    <a class="badge badge-primary text-light" href="<?= base_url('Home/Pemesanan/') . $wm['id_waktu_main'] . '/'; ?>">Pesan!</a>
+                                    <a class="badge badge-primary text-light" href="<?= base_url('Home/Pemesanan/') . $wm['id_waktu_main'] . '/' . $date . "/"; ?>">Pesan!</a>
                                 </td>
                             </tr>
                         <?php } else { ?>
@@ -61,7 +61,7 @@
                                                 $i++;  ?>
                                         </td>
                                         <td>
-                                            <a class="badge badge-primary text-light" href="<?= base_url('Home/Pemesanan/') . $wm['id_waktu_main'] . '/'; ?>">Pesan!</a>
+                                            <a class="badge badge-primary text-light" href="<?= base_url('Home/Pemesanan/') . $wm['id_waktu_main'] . '/' . $date . "/"; ?>">Pesan!</a>
                                         </td>
                                     </tr>
                                 <?php } ?>

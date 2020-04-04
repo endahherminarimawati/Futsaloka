@@ -18,26 +18,34 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8">
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text" id="basic-addon3">Nama</span>
+                <form action="<?= base_url('Home/booking') ?>" method="POST">
+                    <div class="form-group">
+                        <label for=""></label>
+                        <input type="hidden" class="form-control" name="id_waktu_main" id="id_waktu_main" value="<?= $jam_detil['id_waktu_main'] ?>" readonly>
                     </div>
-                    <input type="text" class="form-control" name="nama" id="nama" aria-describedby="basic-addon3">
-                </div>
+                    <div class="form-group">
+                        <label for="">Nama Anda</label>
+                        <input type="text" class="form-control" name="nama" id="nama" placeholder="Nama Anda...">
+                    </div>
+                    <div class="form-group">
+                        <label for="">No. HP/WA</label>
+                        <input type="text" class="form-control" name="hp" id="hp" placeholder="No. HP/WA Anda...">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Tanggal</label>
+                        <input type="text" class="form-control" name="tanggal" id="tanggal" value="<?= $date ?>" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Waktu</label>
+                        <input type="text" class="form-control" name="waktu" id="waktu" value="<?= $jam_detil['jam_main']; ?>" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Tarif</label>
+                        <input type="text" class="form-control" name="tarif" id="tarif" value="<?= $jam_detil['tarif'] ?>" readonly>
+                    </div>
 
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text" id="basic-addon3">Waktu</span>
-                    </div>
-                    <input type="text" class="form-control" name="waktu" id="waktu" aria-describedby="basic-addon3" value="<?= $jam_detil['jam_main'] ?>">
-                </div>
-
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text" id="basic-addon3">Biaya</span>
-                    </div>
-                    <input type="text" class="form-control" name="biaya" id="biaya" aria-describedby="basic-addon3" value="<?= $jam_detil['tarif'] ?>">
-                </div>
+                    <button type="submit" class="btn btn-primary">Pesan</button>
+                </form>
             </div>
         </div>
     </div>

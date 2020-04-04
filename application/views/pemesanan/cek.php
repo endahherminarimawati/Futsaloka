@@ -9,7 +9,8 @@
 </head>
 
 <body>
-    <form method="POST" action="">
+    <?php echo base_url(); ?>
+    <form action="<?= base_url('Home/CekJadwal'); ?>" method="POST">
         <input type="date" name="date">
         <br>
         <input type="submit" value="submit">

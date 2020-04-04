@@ -14,6 +14,7 @@
 <body>
 
     <h1 class="text-center">Ini Adalah Halamn Awal Futsaloka</h1>
+    <a href="<?= base_url('Home/cek/') ?>" class="text-center badge badge-primary">Pesan Sekarang</a>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

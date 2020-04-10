@@ -1,18 +1,18 @@
 ###################
-Futsaloka
+What is CodeIgniter
 ###################
 
-Futsaloka adalah project aplikasi dari mata kuliah Pengantar Perangkat Lunak
-di Univeristas Ahmad Dahlan Yogyakarta. 
+CodeIgniter is an Application Development Framework - a toolkit - for people
+who build web sites using PHP. Its goal is to enable you to develop projects
+much faster than you could if you were writing code from scratch, by providing
+a rich set of libraries for commonly needed tasks, as well as a simple
+interface and logical structure to access these libraries. CodeIgniter lets
+you creatively focus on your project by minimizing the amount of code needed
+for a given task.
 
 *******************
-Anggota Kelompok
+Release Information
 *******************
-
-- `Ketua/SA/DBA`     : `Endah Herminarimawati <https://github.com/endahherminarimawati>`_.
-- `Back End Dev`     : `Andri Nur Hidayatuloh <https://github.com/andrinur13>`_.
-- `Front End Web`    : `Alfrialdi Saputra <https://github.com/AnfieldGank14>`_.
-- `Front End Mobile` : `Aldiansyah <https://github.com/aldinsh>`_.
 
 This repo contains in-development code for future releases. To download the
 latest stable release please visit the `CodeIgniter Downloads

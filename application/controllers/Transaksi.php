@@ -15,6 +15,13 @@ class Transaksi extends REST_Controller
         $this->load->model('Transaksi_model');
     }
 
+    public function index_get()
+    {
+        $this->response([
+            'status' => true,
+            'messages' => 'connected to Transaksi API'
+        ], REST_Controller::HTTP_OK);
+    }
 
     public function gettransaksi_get()
     {

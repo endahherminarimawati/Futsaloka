@@ -89,7 +89,7 @@ class Transaksi extends REST_Controller
     {
         $id = $this->delete('id_transaksi');
 
-        if ($id === null) {
+        if ($id == null) {
             $this->response([
                 'status' => true,
                 'messages' => 'provide an id!'

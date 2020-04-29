@@ -1,0 +1,36 @@
+// 20200430002017
+// http://localhost/fut/index.php/user
+
+{
+  "status": true,
+  "messages": "Connected User API",
+  "user": [
+    {
+      "id_user": "1",
+      "username": "ajisaka",
+      "name": "Aji Saka",
+      "password": "$2y$10$9oA3OfYKwpFAKMAEgGR1jeM/RiYnSKwq3xqf67AzWUQ3dW5TTXfWi",
+      "email": "ajisaka@gmail.com",
+      "level": "user",
+      "user_created": "2020-04-22"
+    },
+    {
+      "id_user": "2",
+      "username": "andrinur13",
+      "name": "Andri Nur Hidayatuloh",
+      "password": "$2y$10$u7IMF9110Q1SdITEA1pxo.Vz226o83juy0zhq5briNPA1yQdTfKZy",
+      "email": "andribis13@gmail.com",
+      "level": "user",
+      "user_created": "2020-04-22"
+    },
+    {
+      "id_user": "3",
+      "username": "bagus31",
+      "name": "Bagus",
+      "password": "$2y$10$OqFIUi2ojc0F1pNn9wD0l.e2MsMyOvc6eWeBrEsAn/G4SfWx40HSa",
+      "email": "bagus31@gmail.com",
+      "level": "user",
+      "user_created": "2020-04-23"
+    }
+  ]
+}

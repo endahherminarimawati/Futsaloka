@@ -24,6 +24,16 @@ class Pemesanan_model extends CI_Model
         return $data;
     }
 
+    public function getpemesananbydate($date)
+    {
+        $this->db->select('jadwal.jam');
+        $this->db->from('pemesanan');
+        $this->db->join('jadwal', 'jadwal.id_jadwal = pemesanan.id_jadwal');
+        $this->db->where('pemesanan.tanggal_main', $date);
+        $data = $this->db->get()->result_array();
+        return $data;
+    }
+
     public function addpemesanan($data)
     {
         $this->db->insert('pemesanan', $data);

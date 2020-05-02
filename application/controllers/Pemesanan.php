@@ -82,6 +82,30 @@ class Pemesanan extends REST_Controller
         }
     }
 
+    public function getpemesananbydate_get()
+    {
+        $date_input = $this->get('date-input');
+        if ($date_input === null) {
+            $this->response([
+                'status' => false,
+                'message' => 'provide an date!'
+            ], REST_Controller::HTTP_BAD_REQUEST);
+            return;
+        }
+        $data = $this->Pemesanan_model->getpemesananbydate($date_input);
+        if ($data == null) {
+            $this->response([
+                'status' => false,
+                'mesage' => 'pemesanan by date not found!'
+            ], REST_Controller::HTTP_NOT_FOUND);
+        } else {
+            $this->response([
+                'status' => true,
+                'data' => $data
+            ], REST_Controller::HTTP_OK);
+        }
+    }
+
     public function addpemesanan_post()
     {
         $id_jadwal = $this->input->post('id_jadwal');

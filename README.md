@@ -11,7 +11,7 @@ Dokumentasi API yang sudah di hosting dapat dilihat melalui Postman, import file
 API sudah terhosting di api.futsaloka.my.id
 
 
-Untuk dokumentasi API postman online yang didevelop di localhost dapat diakses : https://documenter.getpostman.com/view/11837096/T1DpAwWw?version=latest
+Untuk dokumentasi API postman online yang didevelop di localhost dapat diakses : https://documenter.getpostman.com/view/11837096/T1DpAwWw
 
 
 
